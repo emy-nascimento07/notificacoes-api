@@ -23,7 +23,7 @@ const Evento = sequelize.define(
       allowNull: true,
     },
     data: {
-      type: DataTypes.DATE,
+      type: DataTypes.DATEONLY,
       allowNull: false,
     },
     local: {
